@@ -1,4 +1,3 @@
-import FooterLogo from "../../images/logo/logo-footer.svg";
 
 function Footer() {
   return (
@@ -9,7 +8,9 @@ function Footer() {
           <div className="flex justify-between min620:flex-col min620:items-center min620:text-center min620:gap-[5rem] !text-left">
             {/* logo side */}
             <div className="flex flex-col w-1/3 gap-8">
-              <img src={FooterLogo} alt="footer_logo" className="w-[18rem]" />
+              <h2 className="text-black text-[2.8rem] font-bold">
+                AK<span className="text-[#ff0336]">FITNESS</span>
+              </h2>
               <p className="text-[15px] font-medium text-[#646464]">
                 Take your health and body to the next level with our
                 comprehensive program designed to help you reach your fitness
@@ -35,7 +36,7 @@ function Footer() {
                 ></i>
               </div>
               <p className="text-[16px] font-medium text-[#646464]">
-                Privacy Policy | © 2023 Gymat
+                Privacy Policy | © 2026 AK FITNESS
               </p>
             </div>
 

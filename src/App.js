@@ -21,6 +21,9 @@ import Gallery from "./Pages/Gallery/Gallery";
 import GalleryPage1 from "./Pages/Gallery/GalleryPage1";
 import GalleryPage2 from "./Pages/Gallery/GalleryPage2";
 import About from "./Pages/About";
+import AdminLogin from "./Pages/Admin/AdminLogin";
+import AdminDashboard from "./Pages/Admin/AdminDashboard";
+import Receptionist from "./Pages/Admin/Receptionist";
 
 function App() {
   return (
@@ -33,7 +36,9 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<SignUp />} />
           <Route path="classes" element={<Classes />} />
-          <Route path="pricing" element={<Price />} />
+          <Route path="admin" element={<AdminLogin />} />
+          <Route path="admin-dashboard" element={<AdminDashboard />} />
+          <Route path="receptionist" element={<Receptionist />} />
           <Route path="blog" element={<Blog />} />
           <Route path="about" element={<About />} />
 

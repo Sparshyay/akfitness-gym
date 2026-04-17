@@ -1,8 +1,6 @@
 import { useState } from "react";
-import Logo from "../../images/logo/logo.svg";
-import NavList from "../Nav/NavList";
+import NavList from "./NavList";
 import { Link } from "react-router-dom";
-import LogoSide from "../../images/logo/logo-footer.svg";
 import SideImg1 from "../../images/sidebar/1.jpg";
 import SideImg2 from "../../images/sidebar/2.jpg";
 import SideImg3 from "../../images/sidebar/3.jpg";
@@ -56,17 +54,13 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`flex flex-row bg-transparent items-center justify-between py-8 px-12  fixed top-0 left-0 right-0 w-full z-50 ${
-          sticky ? "shadow-xl !bg-black" : ""
-        }`}
+        className={`flex flex-row bg-transparent items-center justify-between py-8 px-12  fixed top-0 left-0 right-0 w-full z-50 ${sticky ? "shadow-xl !bg-black" : ""
+          }`}
       >
         <Link to="/">
-          <img
-            src={Logo}
-            alt="logo_img"
-            onClick={goTop}
-            className="w-full h-auto"
-          />
+          <h2 onClick={goTop} className="text-white text-[2.8rem] font-bold cursor-pointer">
+            AK<span className="text-[#ff0336]">FITNESS</span>
+          </h2>
         </Link>
         <div className="navlist-nav">
           <NavList />
@@ -77,9 +71,8 @@ function Navbar() {
 
             {/* hamburger menu */}
             <div
-              className={`flex top-0 flex-col fixed w-full left-0 h-screen bg-white z-[9999999999] py-[60px] px-[40px] ease-in-out duration-500  ${
-                hamburger ? "left-0" : "-left-[100%]"
-              }`}
+              className={`flex top-0 flex-col fixed w-full left-0 h-screen bg-white z-[9999999999] py-[60px] px-[40px] ease-in-out duration-500  ${hamburger ? "left-0" : "-left-[100%]"
+                }`}
             >
               <i
                 onClick={hamburgerMenu}
@@ -146,9 +139,9 @@ function Navbar() {
                   <Link
                     onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    to="/pricing"
+                    to="/receptionist"
                   >
-                    Pricing
+                    Receptionist
                   </Link>
                 </li>
                 <li onClick={hamburgerMenu}>
@@ -167,13 +160,14 @@ function Navbar() {
 
             <div>
               <div
-                className={`flex flex-col fixed w-[40rem] min450:w-full h-[100vh] bg-white top-0 left-0 z-[9999999999] p-[45px] gap-24 overflow-x-hidden ease-in-out duration-[0.5s] ${
-                  sidebar ? "left-0" : "-left-[100%]"
-                }`}
+                className={`flex flex-col fixed w-[40rem] min450:w-full h-[100vh] bg-white top-0 left-0 z-[9999999999] p-[45px] gap-24 overflow-x-hidden ease-in-out duration-[0.5s] ${sidebar ? "left-0" : "-left-[100%]"
+                  }`}
               >
                 {/* logo & X */}
                 <div className="flex justify-between items-center">
-                  <img src={LogoSide} alt="logo_img" className="w-[13rem]" />
+                  <h2 className="text-black text-[2.4rem] font-bold">
+                    AK<span className="text-[#ff0336]">FITNESS</span>
+                  </h2>
                   <i
                     onClick={sideBar}
                     className="fa-solid fa-xmark text-[#ff0336] text-[3.3rem] cursor-pointer"
@@ -238,7 +232,7 @@ function Navbar() {
                   </p>
                   <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
                     <i className="fa-solid fa-envelope text-[#ff0336]"></i>
-                    &nbsp; gymate@gymail.com
+                    &nbsp; info@akfitness.com
                   </p>
                 </div>
                 {/* follow us */}
@@ -284,12 +278,11 @@ function Navbar() {
               className="flex items-center "
             >
               <i
-                className={`fa-solid fa-plus bg-[#FF0336] text-white text-2xl py-3 px-4 rounded-md ${
-                  spin ? "nav-btn-hover" : ""
-                }`}
+                className={`fa-solid fa-plus bg-[#FF0336] text-white text-2xl py-3 px-4 rounded-md ${spin ? "nav-btn-hover" : ""
+                  }`}
               ></i>
               <h3 className="text-white text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider">
-                join class now
+                enquire now
               </h3>
             </Link>
           </div>

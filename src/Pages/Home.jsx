@@ -22,7 +22,6 @@ function Home() {
       <Testimonials />
       <Gallery />
       <BmiCalc />
-      <Pricing />
       <Blog />
       <CtaBanner />
       <Footer />

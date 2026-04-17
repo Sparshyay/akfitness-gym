@@ -20,14 +20,14 @@ function Blog() {
       <section>
         <div className="login-banner relative justify-center flex">
           <h1 className="text-white absolute bottom-[25px] text-[3rem] font-bold">
-            Blog
+            Offers & Announcements
           </h1>
         </div>
         {/* blog */}
         <div className="py-[10rem] container gap-16 page-padding grid grid-cols-[64fr_35fr] md1000:grid-cols-1 md1000:gap-32">
           {/* blog */}
           <div className="flex flex-col gap-28">
-            <BlogBox img={Img1} title="Yoga For Everyone in 2022" />
+            <BlogBox img={Img1} title="Yoga For Everyone in 2026" />
             <BlogBox
               img={Img2}
               title="Getting Back Into CrossFit After Vacation"
@@ -130,7 +130,7 @@ function Blog() {
                   <img src={Recent1} alt="recent_img" className="w-[10rem]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">
-                      March 22, 2022
+                      March 22, 2026
                     </p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       Yoga For Everyone in 2022
@@ -142,7 +142,7 @@ function Blog() {
                   <img src={Recent2} alt="recent_img" className="w-[10rem]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">
-                      March 22, 2022
+                      March 22, 2026
                     </p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       Getting Back Into CrossFit
@@ -154,7 +154,7 @@ function Blog() {
                   <img src={Recent3} alt="recent_img" className="w-[10rem]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">
-                      March 22, 2022
+                      March 22, 2026
                     </p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       Meet Fitness Abassador Grace
@@ -166,7 +166,7 @@ function Blog() {
                   <img src={Recent4} alt="recent_img" className="w-[10rem]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">
-                      March 22, 2022
+                      March 22, 2026
                     </p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       The best are European Meditation Practitioner
@@ -178,7 +178,7 @@ function Blog() {
                   <img src={Recent5} alt="recent_img" className="w-[10rem]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">
-                      March 22, 2022
+                      March 22, 2026
                     </p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       Learn Boxing With Our Trainer John
@@ -190,7 +190,7 @@ function Blog() {
                   <img src={Recent6} alt="recent_img" className="w-[10rem]" />
                   <div className="flex flex-col gap-4 justify-center">
                     <p className="text-[14px] text-[#646464] font-medium">
-                      March 22, 2022
+                      March 22, 2026
                     </p>
                     <p className="text-[16px] text-black hover:text-[#ff0336] ease-in duration-200 cursor-pointer font-bold">
                       How To Get Lean For The Summer
@@ -235,7 +235,7 @@ function Blog() {
             {/* banner */}
             <div className="blog-banner w-full h-[56rem] relative">
               <p className="absolute text-[34px] font-bold uppercase top-16 left-10 z-[2]">
-                gymat
+                AK Fitness
               </p>
               <span className="banner-shape top-14 left-0 z-[1] bg-white absolute w-[18rem] h-[60px]"></span>
               <div className="text-white flex flex-col absolute top-[10rem] left-10">
