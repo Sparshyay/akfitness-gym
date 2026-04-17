@@ -7,7 +7,6 @@ import Navbar from "./components/Nav/Navbar";
 import { Route, Routes } from "react-router-dom";
 import { AuthContextProvider } from "./context/AuthContext";
 import Classes from "./Pages/Classes";
-import Price from "./Pages/Price";
 import Blog from "./Pages/Blog";
 import Schedule from "./Pages/Schedule/Schedule";
 import Monday from "./Pages/Schedule/Monday";

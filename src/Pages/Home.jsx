@@ -7,7 +7,6 @@ import Featured from "../components/Featured/Featured";
 import Footer from "../components/Footer/Footer";
 import Gallery from "../components/Gallery/Gallery";
 import Hero from "../components/Hero/Hero";
-import Pricing from "../components/Pricing/Pricing";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Trainers from "../components/Trainers/Trainers";
 
