@@ -68,9 +68,8 @@ function Navbar() {
         <div className="flex items-center gap-10">
           <div className="flex gap-10">
             {/* mobile menu -------------- */}
-
             <div
-              className={`flex top-0 flex-col fixed w-full left-0 h-screen bg-white z-[9999999999] py-[60px] px-[40px] ease-in-out duration-500  ${hamburger ? "left-0" : "-left-full"
+              className={`flex top-0 flex-col fixed w-full h-screen bg-white z-[9999999999] py-[60px] px-[40px] ease-in-out duration-500  ${hamburger ? "left-0" : "-left-full"
                 }`}
             >
               <i
@@ -159,7 +158,7 @@ function Navbar() {
 
             <div>
               <div
-                className={`flex flex-col fixed w-[40rem] min450:w-full h-[100vh] bg-white top-0 left-0 z-[9999999999] p-[45px] gap-24 overflow-x-hidden ease-in-out duration-[0.5s] ${sidebar ? "left-0" : "-left-full"
+                className={`flex flex-col fixed w-[40rem] min450:w-full h-[100vh] bg-white top-0 z-[9999999999] p-[45px] gap-24 overflow-x-hidden ease-in-out duration-[0.5s] ${sidebar ? "left-0" : "-left-full"
                   }`}
               >
                 {/* logo & X */}
